@@ -9,4 +9,5 @@ chanchal=> cards,   branch name= cards
 <br>
 Rohit=> footer ,  branch name footer
 <br>
-sb apana apana ek ek branch banake karana 
+sb apana apana ek ek branch banake karana <br>
+and css ko style.css me theek 
