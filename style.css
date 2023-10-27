@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carasoul{
+    margin: 10px auto ;
+    padding: 5px;
+    border-radius: 5px;
+    height: 400px;
+    width: 1200px;
+    border: 2px black;
+    box-shadow: 5px 6px 3px 3px black;
+    
+    animation: slider 15s ease-in-out infinite;
+}
+@keyframes slider {
+    0%{
+        background-image: url("https://source.unsplash.com/weekly?water/400x1200");
+        background-size: cover;
+    }
+    25%{
+        background-image: url("https://source.unsplash.com/weekly?laptop/400x1200");
+        background-size: cover;
+    }
+    50%{
+        background-image: url("https://source.unsplash.com/weekly?table/400x1200");
+        background-size: cover;
+    }
+    75%{
+        background-image: url("https://source.unsplash.com/weekly?mobile/400x1200");
+        background-size: cover;
+    }
+    100%,0%{
+        background-image: url("https://source.unsplash.com/weekly?bed/400x1200");
+        background-size: cover;
+    }
+    
+}
+.title{
+    text-align: center;
+    margin: 350px auto 5px;
+}
