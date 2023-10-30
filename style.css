@@ -170,3 +170,85 @@ body{
     transition: 0.5s;
     filter: drop-shadow(0 0 10px #333);
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carasoul {
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    height: 400px;
+    width: 1200px;
+    border: 2px black;
+    box-shadow: 5px 6px 3px 3px black;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    animation: slider 15s ease-in-out infinite;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url("https://source.unsplash.com/weekly?water/400x1200");
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url("https://source.unsplash.com/weekly?laptop/400x1200");
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url("https://source.unsplash.com/weekly?table/400x1200");
+        background-size: cover;
+    }
+
+    75% {
+        background-image: url("https://source.unsplash.com/weekly?mobile/400x1200");
+        background-size: cover;
+    }
+
+    100%,
+    0% {
+        background-image: url("https://source.unsplash.com/weekly?bed/400x1200");
+        background-size: cover;
+    }
+
+}
+
+.title {
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 350px;
+    color: rgb(39, 142, 245);
+    background-color: black;
+    
+
+}
+.leftdesc {
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px 2px rgb(39, 142, 245);
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(39, 142, 245);
+    width: 100px;
+}
+
+.rightdesc {
+    padding: 15px;
+    color: rgb(39, 142, 245);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(39, 142, 245);
+    text-align: center;
+    border-radius: 5px;
+    width: 100px;
+}
